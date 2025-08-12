@@ -40,3 +40,14 @@
 .read-the-docs {
   color: red;
 }
+
+
+.route__block{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.route-link{
+  color: black;
+}
