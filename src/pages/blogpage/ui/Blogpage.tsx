@@ -13,10 +13,10 @@ const blogList: BlogListType[] = [
 ]
 
 const setBlogList = (): Promise<BlogListType[]> => {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       resolve(blogList)
-    }, 1000)
+    }, 1000) 
   })
 }
 
