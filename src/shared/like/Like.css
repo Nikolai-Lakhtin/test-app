@@ -1,0 +1,10 @@
+.like{
+  width: 10px;
+  height: 20px;
+  border: 1px solid green;
+  background-color: black;
+}
+
+.like-isActive{
+  background-color: red;
+}
